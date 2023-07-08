@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #course {
+            background-color: aqua;
+            font-size: 20px;
+        }
+        body {
+           background-color: wheat;
+        }
+        #interest {
+            color: royalblue;
+        }
+    </style>
+</head>
+<body>
+    <form style="margin: auto;" name="course" id="course">
+        <fieldset>
+            <legend style="color: blue;">Course Registration Form</legend>
+            <label for="fname">Enter first name</label>
+            <input type="text" name="fname" id="fname">
+            <br>
+            <br>
+            <label for="lname">Enter last name</label>
+            <input type="text" name="lname" id="lname">
+            <br>
+            <br>
+            <label for="date">Enter your birth date</label>
+            <input type="date" name="date" id="date">
+            <br>
+            <br>
+            <label for="email">Enter your email</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <br>
+            <label for="Phone">Enter your phone number</label>
+            <input type="text" name="phone" id="phone">
+            <br>
+            <br>
+            <label>Are you really intereseted in enrolling for the course</label>
+            <input type="checkbox" name="interest" id="interest">
+            <br>
+            <br>
+            <label>Select your continent</label>
+            <input type="radio" name="where" value="1">North America
+            <input type="radio" name="where" value="2">South America
+            <input type="radio" name="where" value="3">Asia
+            <br>
+            <br>
+            <label>Select the Course</label>
+            <input type="checkbox" name="course" value="1">CSE
+            <input type="checkbox" name="course" value="2">ISE
+            <input type="checkbox" name="course" value="3">AIML
+            <br>
+            <br>
+            <label>Select your country</label>
+            <select size="3" name="country" id="country">
+                <option>India</option>
+                <option>China</option>
+                <option>Australia</option>
+            </select>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

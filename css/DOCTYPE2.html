@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #course{
+            padding: 15%;
+            background-color: bisque;
+            color:brown;
+            font-size:18px;
+            font-weight: bolder;
+        }
+        legend{
+            color:black;
+        }
+        option{
+            font-size:100%;
+        }
+        img{
+            height:50px;
+            width:50px;
+        }
+
+    </style>
+</head>
+<body>
+    <form name="course" id="course">
+        <fieldset>
+            <legend>COURSE REGISTRATION FORM</legend><br>
+            <label for="fname">First name</label>
+            <input type="text" name="fname" id="fname"><br><br>
+            <label for="lname">Last name</label>
+            <input type="text" name="lname" id="lname"><br><br>
+            <label for="bday">Birthday</label>
+            <input type="date" name="bday" id="bday"><br><br>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email"><br><br>
+            <label for="phone">Phone No.</label>
+            <input type="text" name="phone" id="phone"><br><br>
+            <label for="interest">Are you good enough to enter in this course</label>
+            <input type="checkbox" name="interest" id="insterest"><br><br>
+            <label>select your continent</label><br>
+            <input type="radio" name="where" value="1">north america
+            <input type="radio" name="where" value="2">south america
+            <input type="radio" name="where" value="3">asia
+            <br><br><label>select the course</label><br>
+            <input type="checkbox" id="course" name="course">CSE
+            <input type="checkbox" id="course" name="course">ISE
+            <input type="checkbox" id="course" name="course">AIML
+            <br><br><label>Select your county</label>
+            <select name="country" id="country">
+                <option> India </option>
+                <option> Nepal </option>
+                <option> Bhutan </option>
+            </select>
+            <br><br><label>Select your state</label>
+            <select name="country" id="country">
+                <optgroup label="India">
+                    <option> Karnataka </option>
+                    <option> Rajasthan </option>
+                    <option> Guju </option>
+                </optgroup>
+                <optgroup label="USA">
+                    <option> Texas </option>
+                    <option> LA </option>
+                    <option> Las vegas </option>
+                </optgroup>
+            </select>
+            <br><br><label>Select your city</label>
+            <input type="text" name="cities" list="cities">
+            <datalist name="cities" id="cities">
+                <option> Bangalore </option>
+                <option> Mysuru </option>
+                <option> kalburgi </option>
+            </datalist>
+            <br><br><label>Upload your photo</label>
+            <input type="file" name="photo" id="photo">
+            <input type="submit" name="submit" id="submit" value="SUBMIT">
+            <input type="reset" name="reset" id="reset" Value="reset">
+            <button>
+                <img src="background.gif">
+            </button>
+        </fieldset>
+    </form>
+</body>
+</html>

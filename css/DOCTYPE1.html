@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+    #course {
+        background-color:blue;
+    }
+    body{
+        background-color: black;
+    }
+   </style>
+</head>
+<body>
+      <form name="course" id = "course">
+        <fieldset>
+            <legend> Couse registration form </legend>
+            <label for="fname"> Enter first name</label>
+            <input type="text" name="fname" id="fname"><br>
+            <label for="lname"> Enter last name</label>
+            <input type="text" name="lname" id="lname"><br>
+            <label for="bday"> bday</label>
+            <input type="date" name="bday" id="bday"><br>
+            <label for="email"> Enter email</label>
+            <input type="email" name="email" id="email"><br>
+            <label for="phone"> Enter phone</label>
+            <input type="text" name="phone" id="phone"><br>
+            <label> are you intersted in enrolling for the course</label>
+            <input type="checkbox" name="interest" id="interest"><br>
+            <label>select your continent</label>
+            <input type="radio" name="where" value="1"> north america
+            <input type="radio" name="where" value="2"> south america
+            <input type="radio" name="where" value="3"> asia
+            <label>select your course</label>
+            <input type="checkbox" name="course" value="1"> ECE
+            <input type="checkbox" name="course" value="2"> CSE
+            <input type="checkbox" name="course" value="3"> EEE
+            <label>select your country</label>
+            <select size=3 name ="country" id="country">
+                <option>India</option>
+                <option>Nepal</option>
+                <option>pakistan</option>
+            </select>
+            <label>Select ur state</label>
+            <select name="state" id="state">
+                <optgroup level="India">
+                    <option>tamil nadu</option>
+                    <option>kerla</option>
+                    <option>karnataka</option>
+                </optgroup>
+                <optgroup level="Nepal">
+                    <option>kam</option>
+                    <option>rand</option>
+                    <option>tam</option>
+                </optgroup>
+                <optgroup level="pakistan">
+                    <option>tamil nadu</option>
+                    <option>kerla</option>
+                    <option>karnataka</option>
+                </optgroup>
+            </select><br><br>
+                
+       </fieldset>
+      </form>  
+</body>
+</html>
